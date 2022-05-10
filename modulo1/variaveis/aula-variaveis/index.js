@@ -104,10 +104,9 @@ console.log(gostaDeGatos, respostaGatos);
 let numero1 = prompt("Insira o primeiro numero: ");
 let numero2 = prompt("Insira o segundo numero: ");
 
-
 let numero11 = Number(numero1);
 let numero22 = Number(numero2);
-let soma = numero11 + numero22
+let soma = numero11 + numero22-
 
 let somaMultiplicacao = Number(numero1 * numero2);
 
