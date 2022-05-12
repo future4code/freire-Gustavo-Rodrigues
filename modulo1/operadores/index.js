@@ -47,8 +47,12 @@ pois na variavel soma ele está concatenando ao invés de somar
 /*
 
 3- 
+let primeiroNumero = prompt("Digite um numero!")
+let segundoNumero = prompt("Digite outro numero!")
 
-Para o código funcionar 
+const soma = Number(primeiroNumero) + Number(segundoNumero);
+
+Para o código funcionar sera preciso declarar que o numero do prompt venha como Number e não como String, assim ele funcionara.
 
 
 */
