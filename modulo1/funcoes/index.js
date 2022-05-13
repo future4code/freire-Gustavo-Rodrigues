@@ -62,7 +62,7 @@ console.log("resposta", resposta)*/
 // Exercícios de escrita de código
 // 1- 
 
-function nomeIdadeCidade () {
+/*function nomeIdadeCidade () {
     console.log("Eu sou Gustavo, tenho 22 anos, moro em São Paulo e sou estudante.");
     
 }
@@ -131,7 +131,12 @@ console.log(`Numeros inseridos ${numeroUsuario} e ${numeroUsuario2}
 Soma: ${soma(numeroUsuario, numeroUsuario2)}
 Diferença: ${sub(numeroUsuario, numeroUsuario2)}
 Multiplicação: ${multi(numeroUsuario, numeroUsuario2)}
-Divisão: ${divi(numeroUsuario, numeroUsuario2)}`);
+Divisão: ${divi(numeroUsuario, numeroUsuario2)}`); */
+
+let base = 10
+let altura = 20
+let soma = base * altura
+console.log(`A área tem ${soma} cm`);
 
 
 
