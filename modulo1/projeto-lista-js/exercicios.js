@@ -91,18 +91,35 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
-  // implemente sua lógica aqui
+
+  let anoAtual = Number(prompt("Qual o ano atual: "));
+  let anoDeNascimento = Number(prompt("Qual seu ano de nascimento: "));
+  let AnoRg = Number(prompt("Ano em que seu RG emitido: "));
+  let idade = anoAtual - anoDeNascimento;
+  let identidade = anoAtual - AnoRg;
+  let PessoasMenos20 = idade <= 20 && identidade >= 5;
+  let pessoas20a50 = idade > 20 && idade <= 50 && identidade >= 10;
+  let pessoasAcima50 = idade > 50 && identidade >= 15;
+
+  console.log(PessoasMenos20 || pessoas20a50 || pessoasAcima50);
 
 }
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
-  // implemente sua lógica aqui
+  let anoBi = ano % 400 === 0;
+  let anoBi1 = ano % 4 === 0 && ano % 100 !== 0;
 
+  return anoBi || anoBi1
 }
 
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
-  // implemente sua lógica aqui
 
+  let temMais18 = prompt("Você é maior de idade? ");
+  let ensinoMedio = prompt("Você possui ensino médio completo? ");
+  let disponibilidadeExc = prompt("Você possui disponibilidade exclusiva durante os horários do curso?");
+  let resultado = temMais18 == "sim" && ensinoMedio == "sim" && disponibilidadeExc =="sim";
+
+  console.log(resultado);
 }
