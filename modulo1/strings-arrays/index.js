@@ -38,16 +38,16 @@ console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
 // Exercícios de escrita de código
 // 1-
 
-let nome = prompt("Digite seu nome: ");
+/*let nome = prompt("Digite seu nome: ");
 let email = prompt("Digite seu email: ");
 
-console.log(`O email ${email} foi cadastrado com sucesso. Seja bem-vindo(o), ${nome}.`);
+console.log(`O email ${email} foi cadastrado com sucesso. Seja bem-vindo(o), ${nome}.`);*/
 
 
 // Exercícios de escrita de código
 // 2-
 
-let comidaPreferidas = ["lasanha", "bife", "pudim", "sorvete", "brocolis"];
+/*let comidaPreferidas = ["lasanha", "bife", "pudim", "sorvete", "brocolis"];
 console.log(comidaPreferidas);
 console.log(`Essas são as minhas comidas preferidas:
  ${comidaPreferidas[0]}
@@ -57,7 +57,7 @@ console.log(`Essas são as minhas comidas preferidas:
  ${comidaPreferidas[4]}`);
  let comidaDoUsuario = prompt("Digite uma comida preferida: ");
  comidaPreferidas[1] = comidaDoUsuario
- console.log(comidaPreferidas);
+ console.log(comidaPreferidas);/*
  
 
 
@@ -66,7 +66,7 @@ console.log(`Essas são as minhas comidas preferidas:
 // Exercícios de escrita de código
 // 3-
 
-let listaDeTarefas = []
+/*let listaDeTarefas = []
 let tarefasDoUsuario1 = prompt("Digite a tarefa numero 1: ");
 let tarefasDoUsuario2 = prompt("Digite a tarefa numero 2: ");
 let tarefasDoUsuario3 = prompt("Digite a tarefa numero 3: ");
@@ -90,3 +90,11 @@ let fraseUsuario2 = fraseDoUsuario.split(" ")
 
 
 console.log (fraseUsuario2);
+*/
+
+function minhaFuncao(variavel) {
+    return variavel * 5
+}
+
+console.log(minhaFuncao(2))
+console.log(minhaFuncao(10))
