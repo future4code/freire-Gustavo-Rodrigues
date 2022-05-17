@@ -115,34 +115,49 @@
 
 // 3- Exercícios de escrita de código
 
-carrinho = []
+// carrinho = []
 
-let fruta1 = {
-    nome: "morango",
-    disponivel: true
+// let fruta1 = {
+//     nome: "morango",
+//     disponivel: true
+// }
+// let fruta2 = {
+//     nome: "Pêra",
+//     disponivel: true
+// }
+
+// let fruta3 = {
+//     nome: "Uva",
+//     disponivel: true
+// }
+
+
+// function sacolao(fruta){
+//     const sacolaFrutas = {
+//         ...fruta1,
+//         ...fruta2,
+//         ...fruta3
+//     }
+// carrinho = [fruta1, fruta2, fruta3];
+// return carrinho;
+// }
+
+// console.log(sacolao(carrinho.fruta));
+
+
+
+const checaNumeros = (num1, num2) => {
+   if (num1 > num2) {
+      console.log("O primeiro numero é maior que o segundo.");
+   } else if (num1 < num2) {
+      console.log("O primeiro numero é menor que o segundo.");
+   } else {
+      console.log("Os 2 numeros são iguais.");
+   }
 }
-let fruta2 = {
-    nome: "Pêra",
-    disponivel: true
-}
 
-let fruta3 = {
-    nome: "Uva",
-    disponivel: true
-}
+let digite1 = Number(prompt("Digite o primeiro numero: "));
+let digite2 = Number(prompt("Digite o segundo numero: "));
 
-
-function sacolao(fruta){
-    const sacolaFrutas = {
-        ...fruta1,
-        ...fruta2,
-        ...fruta3
-    }
-carrinho = [fruta1, fruta2, fruta3];
-return carrinho;
-}
-
-console.log(sacolao(carrinho.fruta));
-
-
+checaNumeros(digite1, digite2);
 
