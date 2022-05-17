@@ -130,9 +130,27 @@
 //     default:
 //       console("Você nao digitou um valor válido use n / v / m")
 //       break;
-// }
 
 // ----------------------------------------------------------------------------------
+// Exercícios de escrita de código
+// 4- 
+//  const filme = prompt("Qual o gênero do filme?")
+//  const preco = Number(prompt("Qual o preço do ingresso"))
 
+//     if (filme === "fantasia" && preco <= 15){
+//         console.log("Bom filme!")
+//     } else {
+//         console.log("Escolha outro filme")
+//     }
+// ----------------------------------------------------------------------------------
+// Desafios
+// 1-
+//  const filme = prompt("Qual o gênero do filme?")
+//  const preco = Number(prompt("Qual o preço do ingresso"))
+//  const lanchinho = prompt("Qual lanchinho vc vai comprar? ")
 
-
+//     if (filme === "fantasia" && preco <= 15){
+//         console.log(`Bom filme! aproveite o seu ${lanchinho}`)
+//     } else {
+//         console.log("Escolha outro filme")
+//     }
