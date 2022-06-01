@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 25px;
+    background-color: orange;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#txtBusca {
+    margin-right: 60px;
+    padding: 15px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template: auto auto / auto auto auto auto auto;
+    border: 100px;
+    margin: 20px;
+
+
+}
+
+.video1 {
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid black;
+    height: 30vh;
+    width: auto;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    height: 70px;
+}
+
+
+
+
+h1 {
+    color: rgb(3, 3, 3);
+}
