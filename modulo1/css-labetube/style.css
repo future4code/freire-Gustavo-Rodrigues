@@ -3,44 +3,40 @@
     padding: 0;
 }
 header{
-    padding: 25px;
+    height: 60px;
+    padding: 10pxpx;
     background-color: orange;
-    align-items: center;
     display: flex;
-    justify-content: space-between;
 }
 
-#txtBusca {
-    margin-right: 60px;
-    padding: 15px;
+header input {
+    height: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    
 }
 
-.conteudo {
+section {
+    width: 100%;
     display: grid;
-    grid-template: auto auto / auto auto auto auto auto;
-    border: 100px;
-    margin: 20px;
-
-
+    border: solid blueviolet;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
 }
 
-.video1 {
-    border-radius: 10px;
-    margin-top: 30px;
-    border: 1px solid black;
-    height: 30vh;
-    width: auto;
+
+section div {
+    border: solid red;
+    border-width: 2px;
+}
+
+section video {
+    width: 100%;
 }
 
 footer {
-    background-color: orange;
-    text-align: center;
-    height: 70px;
-}
-
-
-
-
-h1 {
-    color: rgb(3, 3, 3);
+    position: absolute;
+    bottom: 0;
 }
