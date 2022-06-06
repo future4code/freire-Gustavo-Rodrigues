@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    padding: 10pxpx;
+    background-color: orange;
+    display: flex;
+}
+
+header input {
+    height: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+section {
+    width: 100%;
+    display: grid;
+    border: solid blueviolet;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+
+section div {
+    border: solid red;
+    border-width: 2px;
+}
+
+section video {
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
