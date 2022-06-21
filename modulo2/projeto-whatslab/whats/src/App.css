@@ -1,0 +1,49 @@
+.container {
+  width: 80vw;
+  min-height: 78vh;
+  border: solid 1px black;
+  margin: 0 auto;
+  background-image: url(./img/whatsapp.jpg);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.balao {
+  background-color: #cccccc;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 20px;
+
+}
+
+.mensagem {
+  display: flex;
+  margin: 0 auto;
+  width: 80vw;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 0);
+  flex-wrap: wrap;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.balao strong {
+  color: rgb(52, 52, 235);
+}
+
+.mensagem input {
+  padding: 10px;
+}
+
+::placeholder {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.boxusuario {
+  border-radius: 30px;
+}
