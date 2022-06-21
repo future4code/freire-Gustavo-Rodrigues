@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+h1{
+color: rgb(250, 250, 250);
+}
+header{
+    text-align: center;
+    width: 100%;
+    background-color: #8b36d1;
+    justify-content: space-between;
+}
+
+
+.index{
+    color: #000000;
+}
+
+.estoque{
+    color: #000000;
+}
+
+.produtos{
+    color: #000000;
+}
+
+.funcionarios{
+    color: #000000;
+}
+body{
+    text-align: center;
+}
+footer{
+    background-color: #8b36d1;
+    justify-content: space-between;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
