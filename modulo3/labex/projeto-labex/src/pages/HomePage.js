@@ -5,16 +5,20 @@ const HomePage = () => {
     const navigate = useNavigate()
 
     const goToListTripsPage = () => {
-        navigate("/ListTrips")
+        navigate("/ListTrip")
     }
 
-    const goToAdminHomePage = () => {
-        navigate("/AdminHome")
+    const goToLoginPage = () => {
+        navigate("/LoginPage")
     }
 return (
-   
+    <div>
 
     <button onClick={goToListTripsPage}>Ver Viagens</button>
+
+    <button onClick={goToLoginPage}>Admin Área</button>
+
+    </div>
 
 )
 }
