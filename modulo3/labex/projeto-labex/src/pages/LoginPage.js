@@ -7,7 +7,7 @@ const LoginPage = () => {
     const navigate = useNavigate()
 
     const goBack = () => {
-        navigate("/")
+        navigate("/2")
     }
 
     const goToAdminHomePage = () => {
